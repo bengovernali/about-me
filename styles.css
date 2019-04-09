@@ -7,17 +7,17 @@
  .heading {
     background-color: gold;
     padding: 10px;
+    margin-left: 330px;
+    border-radius: 10px;
  }
  
  h1 {
     font-size: 60px;
     text-align: center;
     margin: auto;
-    border-radius: 10px 10px 0 0;
 }
 
 h2 {
-    border-radius: 0 0 10px 10px;
     text-align: center;
     margin: auto;
 }
@@ -25,8 +25,10 @@ h2 {
 p {
     background-color: gold;
     padding: 15px;
-    margin: 0 50px 0 50px;
+    margin-top: 50px;
+    margin-left: 330px;
     line-height: 1.5;
+    border-radius: 10px;\
 }
 
 ul {
@@ -36,18 +38,23 @@ ul {
     line-height: 1.5;
 }
 
-.firstP {
-    padding: 15px;
-    margin: 50px 50px 0 50px;
-    border-radius: 10px 10px 0 0;
-}
-
-.lastP {
-    border-radius: 0 0 10px 10px;
-}
-
 img {
     float: left;
     width: 300px;
     padding: 15px;
+    Margin-top: 50%;
 }
+
+.sidebar {
+    height: 100%;
+    width: 330px; 
+    position: fixed; 
+    z-index: 1; 
+    top: 0; 
+    left: 0;
+    background-color: gold;
+    overflow-x: hidden; 
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
